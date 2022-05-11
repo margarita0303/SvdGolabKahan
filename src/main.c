@@ -3,8 +3,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #define NRANSI
-#include "nr.h"
-#include "nrutil.h"
+#include "../include/nr.h"
+#include "../include/nrutil.h"
 
 
 #define NP 20
@@ -23,7 +23,7 @@ int main(void)
 	u=matrix(1,MP,1,NP);
 	v=matrix(1,NP,1,NP);
 	/* read input matrices */
-	if ((fp = fopen("matrx3.dat","r")) == NULL)
+	if ((fp = fopen("data/matrx3.dat","r")) == NULL)
 		nrerror("Data file matrx3.dat not found\n");
 	while (!feof(fp)) {
 		fgets(dummy,MAXSTR,fp);

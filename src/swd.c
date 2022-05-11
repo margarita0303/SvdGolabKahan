@@ -1,6 +1,6 @@
 #include <math.h>
 #define NRANSI
-#include "nrutil.h"
+#include "../include/nrutil.h"
 
 float pythag(float a, float b)
 	{
