@@ -1,4 +1,4 @@
 all:
-	gcc src/nrutil.c src/swd.c src/main.c -o swd -lm
+	gcc src/nrutil.c src/svd.c src/main.c -o svd -lm
 clean:
-	rm -rf *.o swd 
+	rm -rf *.o svd 
