@@ -7,5 +7,5 @@ Run:
 make
 ```
 ```
-./swd
+./svd
 ```
